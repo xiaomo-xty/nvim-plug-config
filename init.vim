@@ -212,3 +212,7 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
 " ==============================================================================================================
 " end:coc.vim
+
+
+set nu
+let g:coc_global_extensions = ['coc-marketplace','coc-html','coc-rust-analyzer','coc-pyright','coc-markdown-preview-enhanced','coc-mare','coc-clangd']
